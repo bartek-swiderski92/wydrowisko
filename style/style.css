@@ -116,3 +116,21 @@ font-size: 20px;
   text-shadow: rgba(0, 0, 0, 0.9) 3px 6px 9px;
   font-size: 40px;
 }
+
+@media all and (min-width: 768px){
+  .glowna-tresc {
+    flex-direction: row;
+    overflow: hidden;
+  }
+  .lista-miniatur {
+    flex-direction: column;
+    order: 0;
+    margin-left: 20px;
+  }
+  .element-listy {
+    max-width: 260px;
+  }
+  .element-listy + .element-listy {
+    mrgin-top: 20 px;
+  }
+}
