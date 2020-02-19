@@ -106,12 +106,12 @@ font-size: 20px;
 .ramka-duzego-obrazu {
   position: relative;
   text-align: center;
-  transition: transform 333ms
+  transition: transform 333ms cubic-bezier(.93,.47,.83,.67);
 }
 
 .bardzo-maly-obraz {
   transform: scaleX(0.001);
-  transition: transform 0ms;
+  transition: transform 0s;
 }
 
 .duzy-obraz {
